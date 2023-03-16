@@ -186,6 +186,5 @@ ggplot(new_merged_teo, aes(x = my_bins, fill = my_bins)) +
   labs(title = "My Bar Plot for maize homogenety distribution", x = "Bins", y = "Count") +
   theme_minimal()
 
-### I was not able to view all the plotted graphs apart from the "SNPS per Chromosome in Maize". 
-###Also remember to make all your graphs in pdf format. I wish you the best.
+### I was not able to view all the plotted graphs apart from the "SNPS per Chromosome in Maize".Also remember to make all your graphs in pdf format. I wish you the best.
 ```
