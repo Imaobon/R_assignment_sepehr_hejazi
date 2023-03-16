@@ -29,7 +29,7 @@ str(snp_position)
 
 ```
 ## lets do the data processing
-
+##(I ran all the script for fang and SNP data inspection and they look good. Other suggestions include: names() and unique(data$Chromosome) to know the name of each column and unique chromosome in file)
 ```{r}
 #trimming snp file
 snp_3 <- snp_position [c(1,3,4)]
@@ -79,7 +79,7 @@ write.table(file_sorted, file = file_name, sep = "\t", quote = FALSE, row.names 
 }
 
 ```
-
+##All code for your data processing ran well.I would suggest making them more organized by creating a separate folder "dir.create('./name')" for each each decreasing and increasing order for maize and teosinte.
 
 # Data visualization
 ```{r, echo=FALSE, fig.show="hold"}
@@ -186,4 +186,6 @@ ggplot(new_merged_teo, aes(x = my_bins, fill = my_bins)) +
   labs(title = "My Bar Plot for maize homogenety distribution", x = "Bins", y = "Count") +
   theme_minimal()
 
+### I was not able to view all the plotted graphs apart from the "SNPS per Chromosome in Maize". 
+###Also remember to make all your graphs in pdf format. I wish you the best.
 ```
